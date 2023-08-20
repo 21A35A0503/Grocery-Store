@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Store</title>
+
+    <!-- font awesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+    <!-- custom css file link-->
+    <link rel="stylesheet" href="style.css">
+
+    <body>
+        <!-- header section starts-->
+
+        <header class="header">
+            <a href="#" class="logo"> <i class="fas fa-basket-shopping"></i>Grocery</a>
+            
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#fruits&vegetables">Fruits&Vegetables</a>
+                <a href="#Grocery&supplies">Groceries</a>
+                <a href="#Contact">Contact</a>
+                <a href="#About us">AboutUs</a>
+            </nav>
+
+            <div class="icons">
+                <div class="fas fa-bars" id="menu-btn"></div>
+                <div class="fas fa-search" id="search-btn"></div>
+                <div class="fas fa-user" id="login-btn"></div>
+                <div class="fas fa-shopping-cart" id="shopping-btn"></div>
+            </div>
+            <form action="" class="search-form">
+                <input type="search" id="search-box" placeholder="search here">
+                <label for="search-btn" class="fas fa-search"></label>
+            </form>
+            <form action="" class="login-form">
+                <h3> Login</h3>
+                <input type="email" placeholder="Enter your email" class="box">
+                <input type="password" placeholder="password" class="box">
+                <p>forget your password <a href="#">click here</a></p>
+                <p>don't have an account <a href="#">create now</a></p>
+                <input type="submit" value="login now" class="btn">
+            </form>
+        </header>
+
+
+        <!-- header section ends-->
+
+        <!-- header section starts-->
+        <section class="home" id="home">
+            <div class="content">
+                <h3>Fresh And<span> Organic</span> Products For You</h3>
+                <p>Welcome to our online grocery store! We are dedicated to providing you with the freshest and highest quality products. From farm-fresh produce to pantry staples, we have a wide range of items to choose.
+                Explore our carefully curated selection of fruits,vegetables,dairy products,and more.Our team is committed to ensuring that you have a delightful shopping experience right from the comfort of your home.
+                At Our Grocery Store, we prioritize your satisfaction.Our friendly customer support is here to assist you with any questions or concerns you may have. Shop with confidence and enjoy the convenience of doorstep delivery.
+                browse our products and add your favorite items to your cart. Thank you for choosing us as your trusted source for premium groceries.</p>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+        </section>
+
+        <!-- header section ends-->
+        <section class="features" id="features">
+            <h1 class="heading">Our<span>Features</span></h1>
+                   <div class="row">
+                      <div class="col-lg-3 col-md-6 col-sm-6">
+                         <div id="ho_bo" class="our_products">
+                            <div class="product">
+                               <figure><img src="image/Broccoli.jpeg" alt="#"/></figure>
+                            </div>
+                            <h3>Broccoli</h3>
+                            <span>Availablity: 500 gm</span><br>
+                            <a href="#" class="logo">$450.99<i class="fas fa-tag"></i></a>
+                            <p>50% OFF</p>
+                            <a href="#" class="btn"> <i class="fas fa-cart-plus"></i> Add To Cart</a>
+                         </div>
+                      </div>
+                      <div class="col-lg-3 col-md-6 col-sm-6">
+                         <div id="ho_bo" class="our_products">
+                            <div class="product">
+                               <figure><img src="image/Cauliflower.jpeg" alt="#"/></figure>
+                            </div>
+                            <h3>Cauliflower</h3>
+                            <span>Availablity: 500 gm</span><br>
+                            <a href="#" class="logo">$450.99<i class="fas fa-tag"></i></a>
+                            <p>50% OFF</p>
+                            <a href="#" class="btn"> <i class="fas fa-cart-plus"></i> Add To Cart</a>
+                         </div>
+                      </div>
+                      <div class="col-lg-3 col-md-6 col-sm-6">
+                         <div id="ho_bo" class="our_products">
+                            <div class="product">
+                               <figure><img src="image/Coriander.jpeg" alt="#"/></figure>
+                            </div>
+                            <h3>Coriander</h3>
+                            <span>Availablity: 500 gm</span><br>
+                            <a href="#" class="logo">$450.99<i class="fas fa-tag"></i></a>
+                            <p>50% OFF</p>
+                            <a href="#" class="btn"> <i class="fas fa-cart-plus"></i> Add To Cart</a>
+                         </div>
+                      </div>
+                      <div class="col-lg-3 col-md-6 col-sm-6">
+                         <div id="ho_bo" class="our_products">
+                            <div class="product">
+                               <figure><img src="image/StrawBerry.jpeg" alt="#"/></figure>
+                            </div>
+                            <h3>Straw Berry</h3>
+                            <span>Availablity: 500 gm</span><br>
+                            <a href="#" class="logo">$450.99<i class="fas fa-tag"></i></a>
+                            <p>50% OFF</p>
+                            <a href="#" class="btn"> <i class="fas fa-cart-plus"></i> Add To Cart</a>
+                         </div>
+                      </div>
+                   </div>
+                </div>
+             </div>
+            
+            
+        </section>
+
+
+
+        <!-- custom js file link-->
+        <script src="script.js"></script>
+    </body>
+</head>
+</html>
